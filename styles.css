@@ -1,18 +1,7 @@
-nav {
-    background-color: #8FC1B5;
-    border: 4px solid #a0d6ca;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    padding: 20px;
-    text-align: left;
-    float: left;
-    width: 100%;
+img {
+    display: block;
+    max-width: 100%;
     height: auto;
-    margin: 5px 5px 5px 5px;
-}
-nav ul {
-  list-style-type: none;
-  padding: 5px;
 }
 body {
     margin:0;
@@ -20,11 +9,6 @@ body {
     color: white;
     background-color: #ffffff;
     text-shadow:#000000 1px 1px 2px;
-}
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
 }
 header {
     background-color: #146551;
@@ -34,7 +18,7 @@ header {
     text-align: center;
     text-shadow: 2px 2px 4px #000000;
     padding: 2px;
-    margin: 5px 5px 5px 5px;
+    margin: 10px 10px 10px 10px;
 }
 #section1 {
     background-color: #007566;
@@ -47,35 +31,36 @@ header {
     width: 48%;
     margin: 5px 5px 5px 5px;
 }
-#section2 {
+#left {
     background-color: #589A8D;
     border: 4px solid #63ac9d;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 20px;
-    text-align: center;
-    float: left;
+    text-align: left;
     width: 70%;
     height: auto;
-    margin: 5px 5px 5px 5px;
+    margin: 5px 10px 5px 10px;
+    float:left;
 }
-#section3 {
+#right {
     background-color: #8FC1B5;
     border: 4px solid #a0d6ca;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 20px;
-    text-align: right;
-    float:left;
-    width: 33.3%;
+    text-align: left;
+    width: 27%;
+    float: left;
+    margin: 5px 5px 5px 5px;
 }
 .container {
     font-family: Arial, sans-serif;
     background-color: #335c52;
-    padding: 40px;
-    margin: 30px 100px 30px 100px;
-    border-radius: 10px;
+    padding: 10px;
+    margin: 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
 }
 .playfair-display-400 {
   font-family: "Playfair Display", serif;
@@ -91,6 +76,20 @@ header {
   font-style: normal;
   font-size: 1.2vw;
 }
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    color: #0c4441;
+}
+a:visited {
+    color: #d0e090;
+}
 section {
     margin-bottom: 20px;
     display: inline-block;
@@ -99,9 +98,10 @@ section {
 footer {
     background-color: #146551;
     border: 4px solid #197760;
-    
+    border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    margin-top: 20px;
+    margin: 20px 10px 5px 10px;
     clear: both;
+    text-align: center;
 }
 
