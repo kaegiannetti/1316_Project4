@@ -27,7 +27,7 @@ header {
     text-align: left;
     width: 70%;
     height: auto;
-    margin: 5px 10px 5px 10px;
+    margin: 10px 10px 10px 10px;
     float:left;
 }
 #right {
@@ -38,7 +38,7 @@ header {
     text-align: left;
     width: 27%;
     float: left;
-    margin: 5px 10px 5px 10px;
+    margin: 10px 10px 10px 10px;
 }
 #bottom-left {
     background-color: #297e72be;
@@ -48,7 +48,7 @@ header {
     text-align: left;
     float: left;
     width: 70%;
-    margin: 5px 10px 5px 10px;
+    margin: 10px 10px 10px 10px;
 }
 #bottom-right {
     background-color: #95cfc2c0;
@@ -58,7 +58,7 @@ header {
     text-align: left;
     float: left;
     width: 27%;
-    margin: 5px 10px 5px 10px;
+    margin: 10px 10px 10px 10px;
 }
 .container {
     font-family: Arial, sans-serif;
@@ -109,12 +109,5 @@ footer {
     margin: 20px 10px 5px 10px;
     clear: both;
     text-align: center;
-}
-@media (max-width: 768px) {
-    #left, #right {
-        float: none;
-        width: auto;
-        margin: 10px 0;
-    }
 }
 
